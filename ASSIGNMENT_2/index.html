@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real-Time Clock</title>
+  <script src="script.js" defer></script>
+  <style>
+    #clock {
+      font-size: 2rem;
+      font-weight: bold;
+      color: darkred;
+      text-align: center;
+      margin-top: 20px;
+    }
+    table {
+      width: 80%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="text-align:center;">Real-Time Digital Clock</h1>
+  <div id="clock"></div>
+
+  <h2 style="text-align:center;">Framework Comparison</h2>
+  <table>
+    <tr>
+      <th>Aspect</th>
+      <th>React</th>
+      <th>Angular</th>
+    </tr>
+    <tr>
+      <td>Architecture</td>
+      <td>Component-based (View only)</td>
+      <td>MVC (full-fledged framework)</td>
+    </tr>
+    <tr>
+      <td>Features</td>
+      <td>Virtual DOM, JSX, Strong ecosystem</td>
+      <td>Two-way data binding, Dependency Injection, RxJS</td>
+    </tr>
+    <tr>
+      <td>Use Cases</td>
+      <td>Dynamic SPAs, dashboards, UI-heavy apps</td>
+      <td>Enterprise-scale apps, large projects</td>
+    </tr>
+  </table>
+</body>
+</html>
